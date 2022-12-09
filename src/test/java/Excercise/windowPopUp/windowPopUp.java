@@ -11,10 +11,12 @@ public class windowPopUp {
 	public static void main(String[] args) {
 		
 		
-		WebDriverManager.chromedriver().setup();		
-		WebDriver driver = new ChromeDriver();
-		driver.get("http://admin:admin@the-internet.herokuapp.com/");
-		driver.findElement(By.linkText("Basic Auth")).click();
+		//WebDriverManager.chromedriver().setup();		
+		//WebDriver driver = new ChromeDriver();
+		//driver.get("http://admin:admin@the-internet.herokuapp.com/");
+		//driver.findElement(By.linkText("Basic Auth")).click();
+		
+		System.out.println("Test");
 	}
 
 }
